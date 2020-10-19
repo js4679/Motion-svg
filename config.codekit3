@@ -80,28 +80,6 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
-	"/dev/js/animationSpeed.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/animationSpeed-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/blueBox.js": {
-		"bF": 4,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/blueBox-min.js",
-		"oF": 1,
-		"sC": 3,
-		"tS": 0
-		},
 	"/dev/js/demo.js": {
 		"bF": 4,
 		"ft": 64,
@@ -110,28 +88,6 @@
 		"oA": 1,
 		"oAP": "/deploy/js/demo-min.js",
 		"oF": 3,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/greenBox.js": {
-		"bF": 4,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/greenBox-min.js",
-		"oF": 1,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/redBox.js": {
-		"bF": 4,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/redBox-min.js",
-		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -364,7 +320,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 622940918.54529202,
-	"displayValue": "Motion-Start",
+	"displayValue": "Motion-svg",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-brick",
 	"iconImageWasSetByUser": 0
