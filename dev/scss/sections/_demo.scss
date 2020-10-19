@@ -2,37 +2,17 @@
     Demo
 ============= */
 
-#demo-container{
+#svg-demo{
+    
     display: grid;
     grid-template-columns: auto 50% auto;
-    grid-template-areas: ". demo .";
-
+    grid-template-areas: ". svg .";
     >div{
-        grid-area: demo;
-        height: 100vh;
-
-        ul{
-            height: 100%;
-            display: flex;
-            align-items: center;
+        grid-area: svg;
+        border: 1px solid black;
+        
+        svg{
+            border: 1px solid green;
         }
     }
-}
-
-.box{
-    height: 200px;
-    width: 200px;
-    margin-bottom: 300px;
-}
-
-.red-box{
-    background-color: $red;
-}
-
-.blue-box{
-    background-color: $blue;
-}
-
-.green-box{
-    background-color: $green;
 }

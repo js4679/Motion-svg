@@ -379,28 +379,12 @@ textarea {
 /* =============
     Demo
 ============= */
-#demo-container {
+#svg-demo {
   display: grid;
   grid-template-columns: auto 50% auto;
-  grid-template-areas: ". demo ."; }
-  #demo-container > div {
-    grid-area: demo;
-    height: 100vh; }
-    #demo-container > div ul {
-      height: 100%;
-      display: flex;
-      align-items: center; }
-
-.box {
-  height: 200px;
-  width: 200px;
-  margin-bottom: 300px; }
-
-.red-box {
-  background-color: #f13232; }
-
-.blue-box {
-  background-color: #167cd0; }
-
-.green-box {
-  background-color: #8FC67C; }
+  grid-template-areas: ". svg ."; }
+  #svg-demo > div {
+    grid-area: svg;
+    border: 1px solid black; }
+    #svg-demo > div svg {
+      border: 1px solid green; }
