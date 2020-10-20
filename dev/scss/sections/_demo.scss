@@ -5,8 +5,9 @@
 #svg-demo{
 
     display: grid;
-    grid-template-columns: auto 50% auto;
+    grid-template-columns: auto 100% auto;
     grid-template-areas: ". svg .";
+    
     >div{
         grid-area: svg;
         border: 1px solid black;
@@ -18,6 +19,7 @@
         svg{
             border: 1px solid green;
             // width: 100%;
+            // height: 100%;
         }
     }
 }

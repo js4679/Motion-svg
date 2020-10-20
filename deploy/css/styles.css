@@ -381,7 +381,7 @@ textarea {
 ============= */
 #svg-demo {
   display: grid;
-  grid-template-columns: auto 50% auto;
+  grid-template-columns: auto 100% auto;
   grid-template-areas: ". svg ."; }
   #svg-demo > div {
     grid-area: svg;
