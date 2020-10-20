@@ -1,7 +1,6 @@
-// import * as Demo from './demo.js';
-
+import {bubbleAnimation} from "./demo.js"
 import {gsap} from "gsap";
 
-
-// console.log(Demo);
+const mainTL = gsap.timeline();
+mainTL.add(bubbleAnimation());
 

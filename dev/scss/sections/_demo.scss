@@ -3,16 +3,21 @@
 ============= */
 
 #svg-demo{
-    
+
     display: grid;
     grid-template-columns: auto 50% auto;
     grid-template-areas: ". svg .";
     >div{
         grid-area: svg;
         border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
         
         svg{
             border: 1px solid green;
+            // width: 100%;
         }
     }
 }
