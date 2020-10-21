@@ -6,7 +6,7 @@ const bubbleSpeed=1.5;
 
 const bubbleTL =gsap.timeline();
 bubbleTL.from("#smallestBubble", {duration:bubbleSpeed, alpha:0, scale: 0, y: -170, ease: "none"}, "bubblego")
-        .to("#smallestBubble", {duration:bubbleSpeed, alpha:0, scale: 0, y: 240, ease: "none"})
+        .to("#smallestBubble", {duration:bubbleSpeed, alpha:0, scale: 0, y: 270, ease: "none"})
         .to("#sliderColor-",{ width: 100})
         .from("#biggestBubble", {duration:bubbleSpeed, alpha:0, scale: 0, y: -130, ease: "none"}, "bubblego")
         .to("#biggestBubble", {duration:bubbleSpeed, alpha:0, scale: 0, y: 120, ease: "none"}, "away1")
